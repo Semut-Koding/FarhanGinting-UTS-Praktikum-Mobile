@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p assets/images)",
+      "Bash(python3 -)",
+      "Bash(flutter analyze *)",
+      "Bash(flutter test *)",
+      "Bash(sed -n 1,24p /tmp/t.log | cut -c1-200)",
+      "mcp__chrome-devtools-mcp-zed__evaluate_script",
+      "mcp__chrome-devtools-mcp-zed__take_screenshot",
+      "Bash(pkill -f \"http.server 8765\")"
+    ]
+  }
+}
